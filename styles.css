@@ -1,0 +1,72 @@
+.input_text {
+    height: 40px;
+    width: 340px;
+    border-radius: 20px;
+}
+.input_number {
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+}
+
+.search_button {
+    height: 40px;
+
+}
+
+.grid {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-title {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 400px auto;
+}
+
+.grid-advanced {
+    background-color: white;
+    display: grid;
+    padding: 0px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: 200px 400px auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item-title1 {
+    background-color: white;
+    padding: 0px;
+    text-align: right;
+}
+
+.grid-item-title2 {
+    background-color: white;
+    padding: 0px;
+    text-align: left;
+}
+
+.grid-item-right {
+    background-color: white;
+    padding: 20px;
+    text-align: right;
+}
+.grid-item-left {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
